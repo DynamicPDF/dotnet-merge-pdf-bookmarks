@@ -57,6 +57,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="README.md" />
+    <None Include="Resources\test-doc-a.pdf" />
+    <None Include="Resources\test-doc-b.pdf" />
+    <None Include="Resources\test-doc-c.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
