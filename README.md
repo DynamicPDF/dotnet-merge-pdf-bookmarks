@@ -5,10 +5,10 @@ known as outlines) when merging PDFs in DynamicPDF Merger or Core Suite for
 [Working With Bookmarks When Merging PDFs](https://www.dynamicpdf.com/Blog/post/2019/05/07/Working-With-Bookmarks-When-Merging-PDFs.aspx)
 
 ## NuGet Packages
-These examples reference the ceTe.DynamicPDF.CoreSuite.NET package
+These examples reference the ceTe.DynamicPDF.CoreSuite.NET NuGet package.
 
 ## Pricing and Licensing Information
 
-Pricing and licnesing information can be found here:  
+Pricing and licensing information can be found here:  
 * [DynamicPDF Merger for .NET](https://www.dynamicpdf.com/Merge-PDF-.NET.aspx?tab=pricing)  
 * [DynamicPDF Core Suite for .NET](https://www.dynamicpdf.com/PDF-Suite-.NET.aspx?tab=pricing)
