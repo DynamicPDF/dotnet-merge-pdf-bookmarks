@@ -1,4 +1,4 @@
-# merge-pdf-bookmarks-net C# Visual Studio Project Files
+# dotnet-merge-pdf-bookmarks C# Visual Studio Project Files
 These are example files showing some options for handling bookmarks (also
 known as outlines) when merging PDFs in DynamicPDF Merger or Core Suite for
 .NET. A blog post on this subject can be found here:  
