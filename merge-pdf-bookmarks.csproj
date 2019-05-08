@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E07CEE85-61B8-41B4-94F4-AA1FD715E0ED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>merge_pdf_bookmarks_net</RootNamespace>
-    <AssemblyName>merge-pdf-bookmarks-net</AssemblyName>
+    <RootNamespace>MergePDFBookmarks</RootNamespace>
+    <AssemblyName>merge-pdf-bookmarks</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
