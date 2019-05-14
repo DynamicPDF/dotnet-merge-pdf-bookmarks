@@ -2,7 +2,7 @@
 These are example files showing some options for handling bookmarks (also
 known as outlines) when merging PDFs in DynamicPDF Merger or Core Suite for
 .NET. A blog post on this subject can be found here:  
-[Working With Bookmarks When Merging PDFs](https://www.dynamicpdf.com/Blog/post/2019/05/07/Working-With-Bookmarks-When-Merging-PDFs.aspx)
+[Working With Bookmarks When Merging PDFs](https://www.dynamicpdf.com/Blog/post/2019/05/08/Working-With-Bookmarks-When-Merging-PDFs.aspx)
 
 ## NuGet Packages
 These examples reference the ceTe.DynamicPDF.CoreSuite.NET NuGet package.
