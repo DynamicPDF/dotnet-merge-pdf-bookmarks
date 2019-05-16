@@ -4,6 +4,11 @@ known as outlines) when merging PDFs in DynamicPDF Merger or Core Suite for
 .NET. A blog post on this subject can be found here:  
 [Working With Bookmarks When Merging PDFs](https://www.dynamicpdf.com/Blog/post/2019/05/08/Working-With-Bookmarks-When-Merging-PDFs.aspx)
 
+The following example files are included:
+* Examples/DefaultBehaviorExample.cs
+* Examples/BookmarkForEachPDFExample.cs
+* Examples/OrganizingBookmarksExample.cs
+
 ## NuGet Packages
 These examples reference the ceTe.DynamicPDF.CoreSuite.NET NuGet package.
 
