@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MergePDFBookmarks</RootNamespace>
     <AssemblyName>merge-pdf-bookmarks</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DynamicPDF.NETFramework40, Version=10.19.0.40, Culture=neutral, PublicKeyToken=09b5ce0d5c0a9d8b, processorArchitecture=MSIL">
-      <HintPath>packages\ceTe.DynamicPDF.CoreSuite.NET.10.19.0.40019\lib\net40\DynamicPDF.NETFramework40.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +43,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="12.*" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Examples\BookmarkForEachPDFExample.cs" />
@@ -64,11 +64,4 @@
     <None Include="Resources\test-doc-c.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="packages\ceTe.DynamicPDF.CoreSuite.NET.10.19.0.40019\build\net40\ceTe.DynamicPDF.CoreSuite.NET.targets" Condition="Exists('packages\ceTe.DynamicPDF.CoreSuite.NET.10.19.0.40019\build\net40\ceTe.DynamicPDF.CoreSuite.NET.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('packages\ceTe.DynamicPDF.CoreSuite.NET.10.19.0.40019\build\net40\ceTe.DynamicPDF.CoreSuite.NET.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\ceTe.DynamicPDF.CoreSuite.NET.10.19.0.40019\build\net40\ceTe.DynamicPDF.CoreSuite.NET.targets'))" />
-  </Target>
 </Project>
